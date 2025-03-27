@@ -1,6 +1,6 @@
 #Task1
 def swap_and_print_if_numeric(x, y):
-    if isinstance(x, (int, float)) and isinstance(y, (int, float)): # To check whether variable is integer and also whether it is decimal number
+    if isinstance(x, (int, float)) and isinstance(y, (int, float)): # To check whether variable is integer and also whether it is decimal number by using float
         # Using Arithmetic swap to check input given is integer or not
         x = x + y  # x now has combine X and Y value together
         y = x - y  # y now has original x
